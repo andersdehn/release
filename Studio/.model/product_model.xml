@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ProductModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_TgvLUKBcEea3NtnUiFB5Aw" debugGuiOnPreview="true" debugLevelPreview="DEBUG">
+  <facets xsi:type="appl:TemplateInsertFacet" uuid="_TgvLUaBcEea3NtnUiFB5Aw" id="COMPONENTS"/>
+  <components href="components/_eqSg8Fc5EeWo-40Qyxiobw.xml#_eqSg8Fc5EeWo-40Qyxiobw"/>
+  <components href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_q8cPEFc5EeWo-40Qyxiobw"/>
+  <components href="components/_KH3RkHABEeSk24oMIozLgA.xml#_KH3RkHABEeSk24oMIozLgA"/>
+  <components href="components/_Z4wkQFc8EeWo-40Qyxiobw.xml#_Z4wkQFc8EeWo-40Qyxiobw"/>
+  <world href="world.xml#_8fNuADTNEeSDp-UE12WecQ"/>
+  <domains uuid="_2ZqEUEluEeSo87hK2eA7dQ" name="features">
+    <typeSet uuid="_TgvyY6BcEea3NtnUiFB5Aw" bitSet="458767"/>
+    <values uuid="_4l1A8EluEeSo87hK2eA7dQ" name="black" editable="false" visibility="300"/>
+    <values uuid="_41X40EluEeSo87hK2eA7dQ" name="red" editable="false" visibility="300"/>
+    <values uuid="_5dqA0EluEeSo87hK2eA7dQ" name="blue" editable="false" visibility="300"/>
+    <values uuid="_6ajt8EluEeSo87hK2eA7dQ" name="green" editable="false" visibility="300"/>
+  </domains>
+  <features deletable="false" uuid="N65557" name="DefaultCursorColor" color="(255,151,0,255)"/>
+  <features deletable="false" uuid="N65562" name="DefaultTransparent" color="(0,0,0,0)"/>
+  <features deletable="false" uuid="N65567" name="DefaultBgColor" color="(255,255,255,255)"/>
+  <features deletable="false" uuid="N65572" name="DefaultColor" color="(0,0,0,255)"/>
+  <features uuid="_Kp1yEcUWEeKomJW_sT1cVA" name="white" color="(255,255,255,255)"/>
+  <features uuid="_Dvuz8ce5EeK1ILHtYeZxPw" name="black" displayName="Black" color="(0,0,0,255)"/>
+  <features uuid="_42WaIce5EeK1ILHtYeZxPw" name="red" displayName="Red"/>
+  <features uuid="_IBz3sce6EeK1ILHtYeZxPw" name="green" displayName="Green" color="(0,255,0,255)"/>
+  <features uuid="_QXiMgce6EeK1ILHtYeZxPw" name="yellow" color="(255,255,0,255)"/>
+  <features uuid="_Yoadkce6EeK1ILHtYeZxPw" name="blue" displayName="Blue" color="(0,0,255,255)"/>
+  <features uuid="_PJJhEcyMEeKPWN8WJ_Qi1w" name="gray" color="(100,100,100,100)"/>
+  <features uuid="_dOfPsXkVEeOQkM8a0LjIiQ" name="brown" displayName="Brown" color="(148,95,3,255)"/>
+  <features uuid="_xMl9EAHyEeS27ulxLc-PaQ" name="orange" color="(255,151,0,255)"/>
+  <features uuid="_zyWRMGQEEeSDd6k47owxsA" name="transparent" color="(0,0,0,0)"/>
+  <tables deletable="false" uuid="_cqseUXSwEeO0QL2ZiJsN_Q" name="DefaultPriorityHigh">
+    <rows uuid="_TgwZf6BcEea3NtnUiFB5Aw" in="init" out="100"/>
+    <rows uuid="_TgwZgKBcEea3NtnUiFB5Aw" in="user" out="100"/>
+    <rows uuid="_TgwZgaBcEea3NtnUiFB5Aw" in="selected" out="-1"/>
+    <rows uuid="_TgwZgqBcEea3NtnUiFB5Aw" in="consequence" out="200"/>
+    <rows uuid="_TgwZg6BcEea3NtnUiFB5Aw" in="group" out="300"/>
+    <rows uuid="_TgwZhKBcEea3NtnUiFB5Aw" in="BASE" out="200"/>
+    <rows uuid="_TgwZhaBcEea3NtnUiFB5Aw" in="SYSTEM" out="400"/>
+    <rows uuid="_TgwZhqBcEea3NtnUiFB5Aw" in="DEFAULT" out="100"/>
+    <inTypeSet uuid="_TgwZh6BcEea3NtnUiFB5Aw" bitSet="458767"/>
+    <outTypeSet uuid="_TgwZiKBcEea3NtnUiFB5Aw" bitSet="458767"/>
+  </tables>
+  <tables deletable="false" uuid="_x2NZ0XSwEeO0QL2ZiJsN_Q" name="DefaultPriorityMedium">
+    <rows uuid="_TgwZiqBcEea3NtnUiFB5Aw" in="init" out="10"/>
+    <rows uuid="_TgwZi6BcEea3NtnUiFB5Aw" in="user" out="10"/>
+    <rows uuid="_TgwZjKBcEea3NtnUiFB5Aw" in="selected" out="-1"/>
+    <rows uuid="_TgwZjaBcEea3NtnUiFB5Aw" in="consequence" out="200"/>
+    <rows uuid="_TgwZjqBcEea3NtnUiFB5Aw" in="group" out="300"/>
+    <rows uuid="_TgwZj6BcEea3NtnUiFB5Aw" in="BASE" out="200"/>
+    <rows uuid="_TgwZkKBcEea3NtnUiFB5Aw" in="SYSTEM" out="400"/>
+    <rows uuid="_TgwZkaBcEea3NtnUiFB5Aw" in="DEFAULT" out="10"/>
+    <inTypeSet uuid="_TgwZkqBcEea3NtnUiFB5Aw" bitSet="458767"/>
+    <outTypeSet uuid="_TgwZk6BcEea3NtnUiFB5Aw" bitSet="458767"/>
+  </tables>
+  <tables deletable="false" uuid="_2AZBYw3CEeCuJc61zSuWFg" name="DefaultPriorityStandard">
+    <rows uuid="_TgwZlaBcEea3NtnUiFB5Aw" in="init" out="-10"/>
+    <rows uuid="_TgwZlqBcEea3NtnUiFB5Aw" in="user" out="5"/>
+    <rows uuid="_TgwZl6BcEea3NtnUiFB5Aw" in="selected" out="-1"/>
+    <rows uuid="_TgwZmKBcEea3NtnUiFB5Aw" in="consequence" out="200"/>
+    <rows uuid="_TgwZmaBcEea3NtnUiFB5Aw" in="group" out="300"/>
+    <rows uuid="_TgwZmqBcEea3NtnUiFB5Aw" in="BASE" out="200"/>
+    <rows uuid="_TgwZm6BcEea3NtnUiFB5Aw" in="SYSTEM" out="400"/>
+    <rows uuid="_TgwZnKBcEea3NtnUiFB5Aw" in="DEFAULT" out="-10"/>
+    <inTypeSet uuid="_TgwZnaBcEea3NtnUiFB5Aw" bitSet="4"/>
+    <outTypeSet uuid="_TgwZnqBcEea3NtnUiFB5Aw" bitSet="4"/>
+  </tables>
+  <tables deletable="false" uuid="_BYJdsXSxEeO0QL2ZiJsN_Q" name="DefaultPriorityWeak">
+    <rows uuid="_TgwZoKBcEea3NtnUiFB5Aw" in="init" out="-10"/>
+    <rows uuid="_TgwZoaBcEea3NtnUiFB5Aw" in="user" out="-9"/>
+    <rows uuid="_TgwZoqBcEea3NtnUiFB5Aw" in="selected" out="-1"/>
+    <rows uuid="_TgwZo6BcEea3NtnUiFB5Aw" in="consequence" out="200"/>
+    <rows uuid="_TgwZpKBcEea3NtnUiFB5Aw" in="group" out="300"/>
+    <rows uuid="_TgwZpaBcEea3NtnUiFB5Aw" in="BASE" out="200"/>
+    <rows uuid="_TgwZpqBcEea3NtnUiFB5Aw" in="SYSTEM" out="400"/>
+    <rows uuid="_TgwZp6BcEea3NtnUiFB5Aw" in="DEFAULT" out="-10"/>
+    <inTypeSet uuid="_TgwZqKBcEea3NtnUiFB5Aw" bitSet="458767"/>
+    <outTypeSet uuid="_TgwZqaBcEea3NtnUiFB5Aw" bitSet="458767"/>
+  </tables>
+  <modeldescription uuid="_TgwZqqBcEea3NtnUiFB5Aw" pmid="BuildModel">
+    <version uuid="_TgwZq6BcEea3NtnUiFB5Aw" major="1"/>
+  </modeldescription>
+</comp:ProductModel>
